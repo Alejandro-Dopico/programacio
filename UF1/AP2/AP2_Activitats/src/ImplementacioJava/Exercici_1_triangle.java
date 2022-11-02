@@ -17,7 +17,7 @@ public class Exercici_1_triangle {
             for (int j=n-i; j>1; j--) {
                 System.out.print(" ");
             }
-             for (int j=0; j<=i; j++ ) {
+            for (int j=0; j<=i; j++ ) {
                 System.out.print("* ");
             }
             System.out.print("\n");

@@ -18,12 +18,18 @@ import java.util.Scanner;
 
 public class Exercici_4b {
     private static final String MSG_1 = "Introdueix el mes: ";
-
+    private static final String MSG2 = "Introdueix un nombre del 1 al 12: ";
+    private static final int MIN = 1;
+    private static final int MAX = 12;
+    
     public static void main(String[] args) {       
         int mes;    
         Scanner sc = new Scanner(System.in);
         System.out.println(MSG_1);
         mes = sc.nextInt();
+        if (mes < MIN || mes > MAX) {
+            System.out.println(MSG2);
+        }
             switch (mes) {
                 case 1:
                     System.out.println("Enero");

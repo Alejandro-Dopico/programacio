@@ -13,16 +13,23 @@ package ImplementacioJava;
     Programació  
 */
 
+//Pre: Introduirem un número de mes i comprovarà si es entre 1 i 12.
 import java.util.Scanner;
 
 public class Exercici_4a {
     private static final String MSG_1 = "Introdueix el mes: ";
+    private static final String MSG2 = "Introdueix un nombre del 1 al 12: ";
+    private static final int MIN = 1;
+    private static final int MAX = 12;
 
     public static void main(String[] args) {       
         float num1;    
         Scanner sc = new Scanner(System.in);
         System.out.println(MSG_1);
         num1 = sc.nextFloat();
+        if (num1 < MIN || num1 > MAX) {
+            System.out.println(MSG2);
+        }
             if(num1 == 1){
                 System.out.println("Enero");
             }
@@ -59,8 +66,6 @@ public class Exercici_4a {
             else if (num1 == 12){
                 System.out.println("Diciembre");
             }
-            else if (num1 < 1 || num1 > 12){
-                System.out.println("Error");
-            }
         }
 }    
+//Post: Printara el mes posat.

@@ -15,6 +15,7 @@ import java.util.Scanner;
     Programació  
 */
 
+//Pre: Introduïm un any i un mes, i amb aquest valors veurem quants dies te el mes
 public class Exercici_6b {
     private static final String MSG_1 = "Introdueix un any i un mes: ";
 
@@ -42,18 +43,19 @@ public class Exercici_6b {
 
         switch (resultatCase) {       
             case 1:
-                System.out.println("28 dies");
+                System.out.println("El mes te 28 dies");
                 break;
             case 2:
-                System.out.println("29 dias");
+                System.out.println("El mes te 29 dias");
                 break;
             case 3:
-                System.out.println("30 dias");
+                System.out.println("El mes te 30 dias");
                 break;
             case 4:
-                System.out.println("31 dias");
+                System.out.println("El mes te 31 dias");
                 break;
         }
 }
 }    
+//Post: fent l'estructura If else, podem comprobar si es any de traspas o no, i si ho és quants dies te aquell mes.
                

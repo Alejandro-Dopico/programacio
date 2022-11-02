@@ -32,6 +32,9 @@ public class Exercici_8b {
         while(i < quantitat) {
             i++;
             num = sc.nextInt();
+            if(quantitat == i){
+                break;
+            }
             System.out.println(MSG_3);
         }
         System.out.println(MSG_4);

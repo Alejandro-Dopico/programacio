@@ -4,7 +4,8 @@
  */
 package ImplementacioJava;
 
-/*  Alejandro Garcia Dopico
+// Alejandro Garcia Dopico
+/*  
     Nom: Alejandro 
     Cognoms: Garcia Dopico
     INS Manuel Vázquez Montalbán

@@ -15,6 +15,7 @@ import java.util.Scanner;
     Programació  
 */
 
+//Pre: Farem un programa que introduit un nombre, fara la sequencia per aproximarse aquet valor.
 public class Exercici_11 {
     private static final String MSG_1 = "Introdueix un nombre: ";
 
@@ -36,3 +37,4 @@ public class Exercici_11 {
         System.out.println("\nSuma total: " + sum);
 }
 }
+//Post: Ens donarà la suma de la sequencia ordenada, mes proxima al valor.

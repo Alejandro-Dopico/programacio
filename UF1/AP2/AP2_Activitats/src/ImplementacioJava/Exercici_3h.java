@@ -13,6 +13,7 @@ package ImplementacioJava;
     Programació  
 */
 
+//Pre: Introduïm un nombre i verifiquem si es par o senar i l'elevem.
 import java.util.Scanner;
 
 public class Exercici_3h {
@@ -30,4 +31,5 @@ public class Exercici_3h {
                 System.out.println("Senar i elevat al cub: " + num1*num1*num1);
             }           
   }
-}    
+} 
+//Post: Si el nombre es par elevem al quadrat si es senar elevem al cub.

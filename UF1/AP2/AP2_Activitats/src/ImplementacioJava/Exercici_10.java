@@ -15,6 +15,7 @@ import java.util.Scanner;
     Programació  
 */
 
+//Pre: llegirem dos nombres per teclat i sabrem si es multiple i quins son del primer valor.
 public class Exercici_10 {
     private static final String MSG_1 = "Introdueix dos números: ";
     private static final String MSG_2 = "El nombres múltiples de n1 són: ";
@@ -39,3 +40,4 @@ public class Exercici_10 {
         }
 }
 }
+//Post: Mostrara els multiples, si es positiu i si no es multiple.

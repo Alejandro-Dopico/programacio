@@ -15,7 +15,7 @@ package ImplementacioJava;
 
 import java.util.Scanner;
 
-
+//Pre: Introduim un nombre i comprovem si es positiu o negatiu.
 public class Exercici_3a {
     private static final String MSG_1 = "Introdueix un número: ";
     public static void main(String[] args) {
@@ -30,4 +30,5 @@ public class Exercici_3a {
                 System.out.println("El número es negatiu");
             }           
   }
-}      
+}
+//Post: Mostrara si es positiu o negatiu.

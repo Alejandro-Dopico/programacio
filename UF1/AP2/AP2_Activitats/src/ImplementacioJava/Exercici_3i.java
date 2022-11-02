@@ -13,6 +13,7 @@ package ImplementacioJava;
     Programació  
 */
 
+//Pre: Introduïm dos nombres i verifiquem quin es més gran.
 import java.util.Scanner;
 
 public class Exercici_3i {
@@ -31,7 +32,8 @@ public class Exercici_3i {
                 System.out.println("El número més gran és: " + num2);
             }           
             else {
-                 System.out.println("Els números son iguals"); 
+                 System.out.println("Els números son iguals: "); 
                     }
   }
-}    
+}
+//Post: Rebrem el valor més gran dels dos o si son iguals. 

@@ -15,6 +15,7 @@ import java.util.Scanner;
     Programació  
 */
 
+//Pre: Introduïm un nombre i comprovem si entra en el rang demanat.
 public class Exercici_3b {
     private static final String MSG_1 = "Introdueix un número: ";
     
@@ -30,4 +31,5 @@ public class Exercici_3b {
                 System.out.println("El número es més petit o igual a 35");
             }           
   }
-}      
+}
+//Post: T'indicarà si és més gran o més petit que el valor 35.

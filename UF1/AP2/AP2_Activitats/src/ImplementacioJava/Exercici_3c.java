@@ -15,6 +15,7 @@ import java.util.Scanner;
     Programació  
 */
 
+//Pre: Introduïm un nombre i comprovem si entra en el rang demanat.
 public class Exercici_3c {
     private static final String MSG_1 = "Introdueix un número: ";
     
@@ -30,4 +31,5 @@ public class Exercici_3c {
                 System.out.println("El número no entra en el rang");
             }           
   }
-}      
+}     
+//Post: T'indicarà si és positiu i menor que 100 o el número no entra en el rang.

@@ -15,6 +15,7 @@ import java.util.Scanner;
     Programació  
 */
 
+//Pre: Introduïm uns valors i determinem la mitjana aritmetica.
 public class Exercici_9 {
     private static final String MSG_1 = "Introdueix números i acaba amb 0: ";
     private static final String MSG_2 = "La mitjana dels números introduïts es: ";
@@ -32,3 +33,4 @@ public class Exercici_9 {
         System.out.println(MSG_2 + (suma / quantitat));
 }
 }
+//Post: Sumem tots els valors introduïts i fem la mitjana del número de valors.

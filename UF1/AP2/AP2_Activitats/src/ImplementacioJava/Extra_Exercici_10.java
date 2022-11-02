@@ -16,7 +16,7 @@ import java.util.Scanner;
 */
 
 //Pre: llegirem dos nombres per teclat i sabrem si es multiple i quins son del primer valor.
-public class Exercici_10 {
+public class Extra_Exercici_10 {
     private static final String MSG_1 = "Introdueix dos números: ";
     private static final String MSG_2 = "El nombres múltiples de n1 són: ";
     private static final String MSG_3 = "Error: que sean positus i n1 menor que n2 ";

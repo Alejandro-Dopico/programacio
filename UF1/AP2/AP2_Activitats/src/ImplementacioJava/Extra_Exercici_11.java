@@ -16,7 +16,7 @@ import java.util.Scanner;
 */
 
 //Pre: Farem un programa que introduit un nombre, fara la sequencia per aproximarse aquet valor.
-public class Exercici_11 {
+public class Extra_Exercici_11 {
     private static final String MSG_1 = "Introdueix un nombre: ";
 
     public static void main(String[] args) {   

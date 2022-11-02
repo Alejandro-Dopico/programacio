@@ -59,5 +59,5 @@ public class Exercici_6b {
         }
 }
 }    
-//Post: fent l'estructura If else, podem comprobar si es any de traspas o no, i si ho és quants dies te aquell mes.
+//Post: Fent l'estructura Switch, el resultat de la lògica del If-else, dona coma a resultat una variable del switch.
                

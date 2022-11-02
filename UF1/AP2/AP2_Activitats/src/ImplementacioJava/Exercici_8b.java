@@ -15,6 +15,7 @@ import java.util.Scanner;
     Programació  
 */
 
+//Pre: Introduïm un nombre i determinem el numero de cops que et demanara els seguents.
 public class Exercici_8b {
     private static final String MSG_1 = "Digues quants números vols introduir: ";
     private static final String MSG_2 = "Has d’introduir ";
@@ -40,3 +41,4 @@ public class Exercici_8b {
         System.out.println(MSG_4);
     }
 }
+//Post: Depenent de la quantitat de nombres introduits printarem el seguents.

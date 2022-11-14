@@ -25,7 +25,7 @@ public class Sorteig {
     private static final String MSG_5 = "Introdueix el número de telefon: ";
     private static final String MSG_6 = "Error en dades";
     private static final String MSG_7 = "Programa finalitzat per error en dades.";
-    private static final String MSG_8 = "ID    EDAT  TIPUS   IMPORT   TELÈFON";
+    private static final String MSG_8 = "ID    EDAT  TIPUS   IMPORT    TELÈFON";
     private static final String MSG_20 = "A continuació et demanarem les teves dades i les ompliras per teclat";
     private static final String TYPE_0 = "Lliure";
     private static final String TYPE_1 = "Pension";
@@ -47,8 +47,8 @@ public class Sorteig {
         String out = "";
         Scanner sc = new Scanner(System.in);
         System.out.println(MSG_20);
-        do { //Per cada variable, utilitzarem un do/while. Així verificarem si el resultat es correcte
-            System.out.println(MSG_1);
+        System.out.println(MSG_1);
+        do { //Per cada variable, utilitzarem un do/while. Així verificarem si el resultat es correcte      
             valorCorrecte = sc.hasNextInt();
             if (valorCorrecte) {
                 id = sc.nextInt();
@@ -70,10 +70,10 @@ public class Sorteig {
         if (i == 3) { //Sortirem del bucle si i val 3 el programa finalitzara.
             System.out.println(MSG_7);
         } else { //En el cas contrari continuara el programa a partir d'un "else".
+            System.out.println(MSG_2);
             exit = false;
             i = 0; //Aquí reiniciem la variable i, podriem deixarla tal cual, pero volem tenir 3 intents per cada iteració.
-            do { //Repetim amb la mateix estructura les altres variables.
-                System.out.println(MSG_2);
+            do { //Repetim amb la mateix estructura les altres variables.    
                 valorCorrecte = sc.hasNextInt();
                 if (valorCorrecte) {
                     edat = sc.nextInt();
@@ -95,7 +95,7 @@ public class Sorteig {
             if (i == 3) {
                 System.out.println(MSG_7);
             } else {
-
+                i = 0;
                 exit = false;
                 System.out.println(MSG_3);
                 do {

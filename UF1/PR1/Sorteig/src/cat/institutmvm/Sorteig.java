@@ -167,10 +167,9 @@ public class Sorteig {
                         System.out.println(MSG_7);
                     } else {
                         i = 0;
-
+                        System.out.println("\n" + MSG_5);
                         exit = false;
-                        do { //Repetim amb la mateix estructura les altres variables, amb un while més.
-                            System.out.println("\n" + MSG_5);
+                        do { //Repetim amb la mateix estructura les altres variables, amb un while més. 
                             tlf = 0;
                             res = 0;
                             valorCorrecte = sc.hasNextInt();

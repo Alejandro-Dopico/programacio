@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+</html>
+
+<comanda>
+    <client>
+        Juan Delgado Martínez
+    </client>
+    <entrega>
+        <direccio>
+            Carrer Barco 4, tercera planta, lletra A
+        </direccio>
+        <data>
+            19/05/2023
+        </data>
+    </entrega>
+    <articulo> 
+        Bicicleta A2023
+    </articulo>
+</comanda>
+
+
+<mensaje>
+    <remite>
+        <nombre>Alfredo Reino</nombre>
+        <email>alf@ibium.com</email>
+    </remite>
+    <destinatario>
+        <nombre>Bill Clinton</nombre>
+        <email>president@whitehouse.gov</email>
+    </destinatario>
+    <asunto>Hola Bill</asunto>
+    <texto>
+        <p>Hola qué tal?</p>
+        <p>Fa molt de temps que no escrius. A veure si truques i quedem aviat.</p>
+        <p>Un salut.</p>
+    </texto>
+</mensaje>
+
+
+
+
+
+
+
+
+Obtenció d'XML a partir de dades
+
+<root>
+    <Especies>
+        <Acer monspessulanum>
+            <nombre>Arce de Montpellier, Arce menor</nombre>
+            <vegetacion>Caducifolio</vegetacion>
+            <altura>De 6 a 10 metros</altura>
+            <estructura>Copa esférica. Tronco principal recto con bifurcaciones. Ramaje colgante</estructura>
+            <color>Haz verde brillante, envés verde blanquecino</color>
+            <ResFrio>Heladas fuertes (hasta -15ºC)</ResFrio>
+        </Acer>
+        <OleaEuropea>
+            <nombre>Olivo</nombre>
+            <vegetacion>Perenne</vegetacion>
+            <altura>De 8 a 15 metros</altura>
+            <estructura>Copa irregular. Tronco principal irregular con bifurcaciones.</estructra>
+        </OleaEuropea>
+        <RamajeTortuoso>
+            <color>Haz verde oscuro, envés verde plateado</color>
+            <ResFrio>Heladas medias (hasta -10ºC)</ResFrio>
+        </RamajeToruoso>
+    </Especies>
+
+
+
+
+
+    Convertir XSD a XML;
+
+    <receptes>
+        <nom></nom> 
+        <categoria></categoria>
+        <informacion_general>
+            <foto></foto>
+            <comensal></comensal>
+            <temps></tempa>
+        </informacion_general>
+        <ingredientes></ingredientes>
+        <preparaScion></preparaScion>
+    </receptes>
